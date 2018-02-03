@@ -3,12 +3,12 @@
 ## About this project
 The goal of this project is to prepare tidy data that can be used for later analysis. This repository contains the following files: 
 - `run_analysis.R`, the R script that is used to prepare the tidy data
-- `tidy_dataset.txt`, independent tidy data set,which is the output of running `run_analysis.R`
+- `tidy_dataset.txt`, independent tidy data set, which is the output of running `run_analysis.R`
 - `README.md` which provides an overview of this project and the flow of `run_analysis.R` R script
-- `CodeBook.md`, the code book which provides description of variables in the dataset
+- `CodeBook.md`, the code book which provides description of variables in the `tidy_dataset.txt`
 
 ## About the dataset
-The data in this project represent data collected from the embedded accelerometer and gyroscope from Samsung Galaxy SII smartphone. The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity were recorded. Each feature is normalized and bounded within [-1,1]
+The data in this project represents data collected from the embedded accelerometer and gyroscope from Samsung Galaxy SII smartphone. The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity were recorded. Each feature is normalized and bounded within [-1,1]
 
 The original dataset is obtained from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
