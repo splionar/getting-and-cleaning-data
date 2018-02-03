@@ -26,6 +26,7 @@ Before going into step 1, we should first download and unzip the dataset, and lo
 The zip file contains test and train folders. In this project, we omit everything inside `Inertial Signals` folders in both training and test folders. Here are some explanations about the files that we care about:
 - `features.txt`, 561 variable names which will be matched with the readings from test and train dataset
 - `activity_labels.txt`, contains labels with 6 levels with its descriptive activity. This will later be matched with activity records from train and test dataset.
+
 Inside train folder:
 - `subject_train.txt`:  subject for each observation (total 7352 observations)
 - `X_train.txt`: Dataset containing records from 7352 observations and 561 variables
@@ -37,6 +38,7 @@ Inside test folder:
 - `y_test.txt`: Dataset containing activity labels from 2947 observations
 
 Detailed description of the features can be read in `features_info.txt`.
+
 ### Step 0B. Import dataset into R environment
 Before going into step 1, we need to import the dataset into R working environment. As the dataset is separated with space, `read.table` function is used to store the contents into variables. Correct working directory must be set beforehand. Also, the later part of the code will use dplyr library. Hence, it must be first initialized.
 ```r
